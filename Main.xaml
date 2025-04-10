@@ -87,7 +87,7 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="870.4000000000001,390.04" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="853.6000000000001,480.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="dt_TableEvaluation" />
     </Sequence.Variables>
@@ -97,6 +97,7 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Test Pipelines&quot;]" />
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Test Pipelines&quot;]" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Test Pipelines&quot;]" />
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="416,108.8" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;ici&quot;]" />
   </Sequence>
 </Activity>
